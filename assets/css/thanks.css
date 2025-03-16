@@ -2,9 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    background: #ffffff;
-    background: linear-gradient(to bottom, #ffffff 0%, #e1e8ed 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e1e8ed',GradientType=0 );
+    background: #000;
     height: 100%;
     margin: 0;
     background-repeat: no-repeat;
@@ -106,6 +104,6 @@ a:hover .go-home {
         max-width: 620px;
         margin: 0 auto;
         margin-top: 50px;
-        box-shadow: 4px 8px 40px 8px lightgray;
+        box-shadow: 4px 8px 40px 8px #333;
     }
 }
